@@ -7,17 +7,17 @@ const Notes = () => {
         <div className="notes-list">
           <div className="note">
             <div className="note-title"><h3>Defenestrations of Prague</h3></div>
-            <div className="note-category">History</div>
+            <div className="note-category"><h4>History</h4></div>
             <div className="note-desc">Three major incidents in the history of Bohemia in which people were defenestrated (thrown out of a window).</div>
           </div>
           <div className="note">
             <div className="note-title"><h3>Hedgehog signaling pathway</h3></div>
-            <div className="note-category">Biology</div>
+            <div className="note-category"><h4>Biology</h4></div>
             <div className="note-desc">A signaling pathway that transmits information to embryonic cells required for proper cell differentiation.</div>
           </div>
           <div className="note">
             <div className="note-title"><h3>Funcitonal Groups</h3></div>
-            <div className="note-category">Biology</div>
+            <div className="note-category"><h4>Biology</h4></div>
             <div className="note-desc">Specific groupings of atoms within molecules that have their own characteristic properties, regardless of the other atoms present in a molecule.</div>
           </div>
           <div className="note">

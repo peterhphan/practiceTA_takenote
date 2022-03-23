@@ -1,24 +1,13 @@
 {
-  "name": "react-webpack-template",
+  "name": "take-note",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A full-stack coding practice repository",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config webpack.config.js -w",
-    "server": "nodemon server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jjhuang417/react-webpack-template.git"
+    "server": "nodemon server/server.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jjhuang417/react-webpack-template/issues"
-  },
-  "homepage": "https://github.com/jjhuang417/react-webpack-template#readme",
+  "author": "Eric Lie",
   "devDependencies": {
     "@babel/core": "^7.17.5",
     "@babel/preset-env": "^7.16.11",

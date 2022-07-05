@@ -1,5 +1,6 @@
 const express = require('express');
 //const db = FILL_ME_IN
+const {db, getAll} = require('./db.js');
 
 const app = express();
 const port = 3000;
@@ -13,4 +14,11 @@ app.listen(port, (req, res) => {
 
 app.get('/api/notes', (req, res) => {
   //Write your route here!
+  getAll()
+  .then ((data) => {
+    res.status(201).send(JSON.stringify(data))
+  })
+  .catch (() => {
+    console.log('err')
+  })
 });
